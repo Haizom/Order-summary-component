@@ -1,0 +1,124 @@
+html{
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    font-size: 16px;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 95%);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+h1, p{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(225, 100%, 98%);
+    max-width: 330px;
+    margin: 10vh auto;
+    border-radius: 15px;
+}
+
+.hero-img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.sub-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.title{
+    font-size: 1.3rem;
+    margin: 10px 0;
+    font-weight: 900;
+}
+
+.dscrp{
+    font-size: 1rem;
+    margin-top: 10px;
+    color: hsl(224, 23%, 55%) ;
+    line-height: 1.5em;
+}
+
+.sm-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: center;
+    background-color:hsl(225, 100%, 97%);
+    padding: 0.5em;
+    border-radius: 10px;
+    
+}
+
+.sm-left{
+    display: flex;
+}
+.price-plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.price{
+    font-size: 0.8rem;
+    color: hsl(224, 23%, 55%) ;
+}
+.plan{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.change-link{
+    font-size: 0.8rem;
+    color: hsl(245, 75%, 52%);
+}
+
+.change-link:hover{
+    text-decoration: none;
+}
+
+.proceed{
+    background-color:hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 96%);
+    padding: 0.8em;;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 2px rgba(56, 41, 224, 0.2);
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+
+.proceed:hover{
+    background-color:hsl(245, 75%, 65%);
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%) ;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+.cancel:hover{
+    color: black;
+}
+
+
+
+
