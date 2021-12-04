@@ -2,7 +2,7 @@ html{
     font-family: 'Red Hat Display', sans-serif;
     height: 100vh;
     font-size: 16px;
-    background-image: url("/images/pattern-background-desktop.svg");
+    background-image: url("images/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 95%);
     background-size:contain;
     background-repeat: no-repeat;
